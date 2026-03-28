@@ -2,12 +2,18 @@
   background-color: #0D1F08;
 }
 
-
 .navbar {
   padding: 20px 0;
+
   a {
     color: #ffffff;
     font-size: 16px;
     text-decoration: none;
+    transition: color 0.3s ease;
+    
+    &:hover {
+      color: #adacaa;
+    }
   }
 }
+

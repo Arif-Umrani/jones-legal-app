@@ -1,19 +1,53 @@
-.header-container {
-  background-color: #0D1F08;
-}
-
-.navbar {
-  padding: 20px 0;
-
-  a {
-    color: #ffffff;
-    font-size: 16px;
-    text-decoration: none;
-    transition: color 0.3s ease;
-    
-    &:hover {
-      color: #adacaa;
+.navbar-container {
+  .navbar {
+    background-color: #0D1F08;
+    width: 100%;
+    padding: 20px 50px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 100;
+    a {
+      color: #ffffff;
+      font-size: 13px;
+      text-decoration: none;
+      transition: color 0.3s ease;
+      margin: 0 10px;
+  
+      &:hover {
+        color: #adacaa;
+      }
     }
   }
 }
 
+.main-banner {
+  position: relative;
+  height: 900px;
+  background-image: url('/assets/images/main-banner-img.png');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+.banner-title {
+  margin: 0 10px;
+  font-size: 120px;
+  font-weight: 700;
+  letter-spacing: 6px;
+}
+
+.banner-text {
+  position: absolute;
+  top: 500px;
+  left: 80px;
+}
+
+.banner-subtitle {
+  font-size: 32px;
+  color: #ffffff;
+  letter-spacing: 3px;
+}
+.small-text {
+  font-size: 12px;
+}
